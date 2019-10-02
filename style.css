@@ -1,0 +1,74 @@
+.container {
+    margin-bottom: 45px;
+}
+
+.item {
+    height: 250px;
+    width : 250px;
+}
+
+.item:nth-child(1) {
+    background-color: crimson;
+    color           : white;
+}
+
+.item:nth-child(2) {
+    background-color: teal;
+    color           : white;
+}
+
+.item:nth-child(3) {
+    background-color: tomato;
+    color           : white;
+}
+
+.cuadros1 {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+}
+
+.cuadros1 .item {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+}
+
+.cuadros2 {
+    display       : flex;
+    flex-direction: row-reverse;
+
+}
+
+.cuadros2 .item {
+    display        : flex;
+    justify-content: center;
+}
+
+.cuadros3 {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    height         : 800px;
+
+}
+
+.cuadros4 {
+    display       : flex;
+    flex-direction: column-reverse;
+}
+
+.cuadros5 {
+    display        : flex;
+    flex-direction : row-reverse;
+    justify-content: center;
+}
+
+.cuadros6 {
+    display        : flex;
+    flex-direction : row-reverse;
+    justify-content: flex-end;
+    align-items    : stretch;
+
+}

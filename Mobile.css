@@ -1,0 +1,46 @@
+div {
+    background-color: purple;
+    display         : block;
+    height          : 20px;
+    margin          : 10px;
+    width           : 320px;
+}
+
+@media (min-width:320px){
+    .a,
+    .b,
+    .c {
+        background-color: red;
+    }
+}
+
+@media (min-width:600px){
+    .a,
+    .b {
+        background-color: blue;
+        display         : inline-block;
+        text-align      : center;
+        height          : 50px;
+        width: 30%;
+        margin: 57px;
+        background-size: 100%;
+    }
+
+    .c {
+        margin: auto;
+        height: 70px; display: block;
+        background-color: blue;
+    }
+}
+
+@media (min-width:800px) {
+    .a,
+    .b,
+    .c {
+        background-color: brown;
+        display         : inline-block;
+        height          : 500px;
+        margin          : 50px;
+        width: 20%;
+    }
+}
